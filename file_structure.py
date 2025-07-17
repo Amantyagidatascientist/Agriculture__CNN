@@ -8,17 +8,9 @@ project_name='agriculture'
 list_of_file=[".github/workflows/.gitkeep",
               f"src/{project_name}/__init__.py",
               f"src/{project_name}/components/__init__.py",
-              f"src/{project_name}/components/data_ingestion.py",
-              f"src/{project_name}/components/data_tranformation.py",
               f"src/{project_name}/components/model_trainer.py",
-              f"src/{project_name}/components/model_monitering.py",
-              f"src/{project_name}/pipelines/__init__.py",
-              f"src/{project_name}/pipelines/trainging_pipeline.py",
-              f"src/{project_name}/pipelines/prediction_pipeline.py",
               f"src/{project_name}/logger.py",
               f"src/{project_name}/exception.py",
-              f"src/{project_name}/utils.py",
-              f"app.py",
               f"Dockerfile"
 
               ]
